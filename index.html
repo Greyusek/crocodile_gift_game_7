@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crocodile Birthday Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="game">
+      <img id="bg" src="assets/static/bg.png" alt="Background" />
+      <img id="hero" src="assets/static/hero.png" alt="Crocodile" />
+
+      <div id="gift-layer"></div>
+
+      <div id="hud">
+        <div id="controls">
+          <button id="start-btn">Go</button>
+        </div>
+        <button id="fullscreenBtn" class="fullscreen-btn">
+          ⛶
+        </button>
+      </div>
+
+      <div id="speech-bubble" class="hidden"></div>
+
+      <div id="overlay" class="hidden">
+        <div id="art-board">
+          <div id="drawing-container">
+            <img id="drawing" src="" alt="Child drawing" />
+          </div>
+
+          <div id="photo-frame">
+            <img id="frame-image" src="assets/static/pic.png" alt="Frame" />
+            <div id="kid-photo-mask">
+              <img id="kid-photo" src="" alt="Child photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="finish-badge" class="hidden">All the gifts are open!</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

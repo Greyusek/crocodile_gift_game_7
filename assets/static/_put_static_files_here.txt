@@ -1,0 +1,1 @@
+Сюда положи bg.png, hero.png, pres_red.png, pres_green.png, pres_blue.png, pic.png, hellow.mp3, is_it_for_me.mp3, thanks.mp3, bye.mp3
