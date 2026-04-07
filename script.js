@@ -96,8 +96,8 @@ function buildKidsList(count) {
   for (let i = 1; i <= count; i += 1) {
     kids.push({
       id: i,
-      photo: `${KIDS_PATH}kid_${i}.png`,
-      drawing: `${KIDS_PATH}kid_pr_${i}.png`,
+      photo: `${KIDS_PATH}kid_${i}.jpg`,
+      drawing: `${KIDS_PATH}kid_pr_${i}.jpg`,
       voice: `${KIDS_PATH}sp_kid_${i}.mp3`,
       opened: false,
     });
